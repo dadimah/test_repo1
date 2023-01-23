@@ -7,5 +7,7 @@ subnet_id                  = var.AWS_SUBNET_ID
  
 tags = {
 Name = "sample-ec2-instance"
+envirnoment = "dev"
+downtime = "every saturday after 4 pm"
 }
 }
